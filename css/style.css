@@ -1,0 +1,159 @@
+/*
+made with ❤ by Joshimello
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #2f4751;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: #2f4751;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #c3c4a5;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #647e7b;
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 6px;
+    margin: 20px;
+    cursor: text;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    height: 24px;
+    background-color: #2f4751;
+    padding: 0 8px;
+    cursor: default;
+}
+
+.menu .button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.r {
+    background-color: #D08770;
+}
+
+.y {
+    background-color: #EBCB8B;
+}
+
+.g {
+    background-color: #A3BE8C;
+}
+
+div.title {
+    flex: 1;
+    text-align: left;
+}
+
+.menu h1 {
+    font-size: 13px;
+    color: #fceed1;
+    padding-left: 65px;
+}
+
+.buttons-flex {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e3137;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    overflow: auto;
+}
+
+p {
+    font-size: 16px;
+    color: #d9d0b1;
+    padding: 8px 0;
+}
+
+ul {
+    font-size: 16px;
+    color: #d9d0b1;
+    padding: 4px 0;
+}
+
+input {
+    border: none;
+    background-color: unset;
+    width: 100%;
+    color: #B48EAD;
+    font-size: 16px;
+    font-family: monospace; 
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: unset;
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    width: 100%;
+    height: 24px;
+    background-color: #2f4751;
+    padding: 0 8px;
+    cursor: default;
+}
+
+.arrow {
+    color: #B48EAD;
+    padding-right: 8px;
+}
+
+.error {
+    color: #D08770;
+}
