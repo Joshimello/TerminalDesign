@@ -1,6 +1,6 @@
 # js-terminal
 Terminal like GUI with editable commands: output text / functions
 
-## used libs
+## Used libraries
 - JQuery
 - JQuery-UI
